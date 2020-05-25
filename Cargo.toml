@@ -1,0 +1,13 @@
+[package]
+name = "cache-padded"
+version = "1.0.0"
+authors = ["Stjepan Glavina <stjepang@gmail.com>"]
+edition = "2018"
+description = "Prevent false sharing by padding and aligning to the length of a cache line"
+license = "Apache-2.0 OR MIT"
+repository = "https://github.com/stjepang/cache-padded"
+homepage = "https://github.com/stjepang/cache-padded"
+documentation = "https://docs.rs/cache-padded"
+keywords = ["cache", "padding", "lock-free", "atomic"]
+categories = ["concurrency", "no-std"]
+readme = "README.md"
