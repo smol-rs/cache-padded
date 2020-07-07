@@ -53,6 +53,8 @@
 //! ```
 
 #![no_std]
+#![forbid(unsafe_code)]
+#![warn(missing_docs, missing_debug_implementations, rust_2018_idioms)]
 
 use core::fmt;
 use core::ops::{Deref, DerefMut};
