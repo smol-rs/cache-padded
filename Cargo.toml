@@ -10,4 +10,3 @@ homepage = "https://github.com/smol-rs/cache-padded"
 documentation = "https://docs.rs/cache-padded"
 keywords = ["cache", "padding", "lock-free", "atomic"]
 categories = ["concurrency", "no-std"]
-readme = "README.md"
