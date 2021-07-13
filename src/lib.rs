@@ -1,7 +1,7 @@
 //! Prevent false sharing by padding and aligning to the length of a cache line.
 //!
 //! In concurrent programming, sometimes it is desirable to make sure commonly accessed shared data
-//! is not all placed into the same cache line. Updating an atomic value invalides the whole cache
+//! is not all placed into the same cache line. Updating an atomic value invalidates the whole cache
 //! line it belongs to, which makes the next access to the same cache line slower for other CPU
 //! cores. Use [`CachePadded`] to ensure updating one piece of data doesn't invalidate other cached
 //! data.
