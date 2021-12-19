@@ -1,6 +1,9 @@
 [package]
 name = "cache-padded"
-version = "1.1.1"
+# When publishing a new version:
+# - Update CHANGELOG.md
+# - Create "v1.x.y" git tag
+version = "1.2.0"
 authors = ["Stjepan Glavina <stjepang@gmail.com>"]
 edition = "2018"
 description = "Prevent false sharing by padding and aligning to the length of a cache line"
