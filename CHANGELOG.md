@@ -1,6 +1,6 @@
 # Version 1.2.0
 
-- Improve implementation of `CachePadded`.
+- Improve implementation of `CachePadded`. (#8)
 
 # Version 1.1.1
 
