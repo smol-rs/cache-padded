@@ -7,6 +7,5 @@ description = "Prevent false sharing by padding and aligning to the length of a 
 license = "Apache-2.0 OR MIT"
 repository = "https://github.com/smol-rs/cache-padded"
 homepage = "https://github.com/smol-rs/cache-padded"
-documentation = "https://docs.rs/cache-padded"
 keywords = ["cache", "padding", "lock-free", "atomic"]
 categories = ["concurrency", "no-std"]
