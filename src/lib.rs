@@ -13,6 +13,7 @@
 //! * On x86-64, aarch64, and powerpc64, N = 128.
 //! * On arm, mips, mips64, and riscv64, N = 32.
 //! * On s390x, N = 256.
+//! * On all others, N = 64.
 //!
 //! Note that N is just a reasonable guess and is not guaranteed to match the actual cache line
 //! length of the machine the program is running on.
