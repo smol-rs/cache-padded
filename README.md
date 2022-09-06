@@ -1,4 +1,4 @@
-# cache-padded
+# cache-padded (deprecated)
 
 [![Build](https://github.com/smol-rs/cache-padded/workflows/Build%20and%20test/badge.svg)](
 https://github.com/smol-rs/cache-padded/actions)
@@ -8,6 +8,8 @@ https://github.com/smol-rs/cache-padded)
 https://crates.io/crates/cache-padded)
 [![Documentation](https://docs.rs/cache-padded/badge.svg)](
 https://docs.rs/cache-padded)
+
+**This crate is now deprecated in favor of [crossbeam-utils::CachePadded](https://docs.rs/crossbeam-utils/latest/crossbeam_utils/struct.CachePadded.html).**
 
 Prevent false sharing by padding and aligning to the length of a cache line.
 

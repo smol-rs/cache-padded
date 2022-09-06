@@ -1,3 +1,7 @@
+# Version 1.3.0
+
+- This crate is now deprecated in favor of [crossbeam-utils::CachePadded](https://docs.rs/crossbeam-utils/latest/crossbeam_utils/struct.CachePadded.html).
+
 # Version 1.2.0
 
 - Improve implementation of `CachePadded`. (#8)
