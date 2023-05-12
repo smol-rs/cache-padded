@@ -57,6 +57,10 @@
 #![no_std]
 #![forbid(unsafe_code)]
 #![warn(missing_docs, missing_debug_implementations, rust_2018_idioms)]
+#![deprecated(
+    since = "1.3.0",
+    note = "This crate is now deprecated in favor of [crossbeam-utils::CachePadded](https://docs.rs/crossbeam-utils/latest/crossbeam_utils/struct.CachePadded.html)."
+)]
 
 use core::fmt;
 use core::ops::{Deref, DerefMut};
